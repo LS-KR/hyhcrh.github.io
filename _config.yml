@@ -5,7 +5,7 @@
 # Site
 title: hyhcrh-core dump
 subtitle: 'hyhcrh''s Blog'
-description: 'hyhcrh之核心的转储'
+description: 'hyhcrh的喵广播站'
 keywords:
 author: hyhcrh
 language: zh
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hyhcrh.github.io/
+url: 'https://hyhcrh.github.io/'
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,6 +97,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: kratos-rebirth
+
+# 订阅 RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
